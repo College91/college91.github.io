@@ -1,0 +1,121 @@
+<!--Yash Asodariya-->
+<!--Yasodariya6991@conestogac.on.ca-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conetent="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Anime</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="Anime">
+        <h1>Best Anime</h1>
+    </header>
+
+    <nav role="navigation">
+        <!--<div class="navbar">
+            <a href="main.html">Home</a>
+            <a href="">Contact Us</a>
+        </div>-->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h2>Anime</h2>
+        <ul>
+            <li>Naruto</li>
+            <li>One Piece</li>
+            <li>Black Clover</li>
+            <li>Sword Art Online</li>
+            <li>Death Note</li>
+            <li>Bleach</li>
+        </ul>
+    </aside>
+
+    <main>
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" name="Name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="user@domain.com">
+                </div>
+                <div>
+                    <label for="phone">Enter a phone number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div>
+                    <label for="birthday">Date of Birth:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="employment-status">Employment Status:</label>
+                    <select id="employment-status" name="employment-status" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="student">Student</option>
+                        <option value="part-time">Part-time</option>
+                        <option value="full-time">Full-time</option>
+                        <option value="retired">Retired</option>
+                        <option value="not-employed">Not Employed</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <div>
+                    <label><input type="radio" name="hear" value="search-engine"> Search Engine</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="hear" value="social-media"> Social Media</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="hear" value="friend"> Friend</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="hear" value="other"> Other</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tell Us What You Think!</legend>
+                <div>
+                  <label for="comments">Comments:</label>
+                  <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+                </div>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Submit</legend>
+                <div>
+                  <label><input type="checkbox" name="authenticate" required> I am not a robot</label>
+                </div>
+                <div>
+                  <input type="submit" value="Submit">
+                  <input type="clear" value="Clear">
+                </div>
+              </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2023, Yash Asodariya, 8776991</p>
+    </footer>
+</body>
+
+</html>
